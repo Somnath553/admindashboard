@@ -1,12 +1,16 @@
 .App {
   text-align: center;
+  background-image: url("https://loading.io/asset/636106")
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
 }
 
+ 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

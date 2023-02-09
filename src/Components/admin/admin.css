@@ -1,0 +1,57 @@
+.box{
+    background-color: #f7f8fa;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top:5%;
+    display: flex;
+    flex-direction:row;
+    gap: 2rem;
+}
+
+.rightbox{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+.leftbox{
+    height: 100%;
+    
+    width: 35%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width:0;
+}
+.box2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 2rem;
+}
+.piegraph , .bargraph{
+    height:100%;
+    width: 50%;
+    background-color:#fff;
+    box-shadow:  27px 27px 35px #a8a8a8,
+    -27px -27px 35px #ffffff;
+}
+
+
+
+.graph{
+    width: 100%;
+    height: 50%;
+    background-color:#fff;
+    box-shadow:  27px 27px 35px #a8a8a8,
+    -27px -27px 35px #ffffff;
+}
+
+.graph >canvas{
+    width: 100% !important;
+    height: 100% !important;
+}
